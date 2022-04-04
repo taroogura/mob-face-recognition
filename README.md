@@ -29,8 +29,9 @@ conf_ap1, feat_ap1 = mobface.extract(cv2.imread('ap1.jpg'))
 conf_ap2, feat_ap2 = mobface.extract(cv2.imread('ap2.jpg'))
 conf_as1, feat_as1 = mobface.extract(cv2.imread('as1.jpg'))
 
-mate_score = compare(feat_ap1, feat_ap2)          #  0.7762308
-nonmate_score1 = compare(feat_as1, feat_ap1)      # -0.12886877
-nonmate_score2 = compare(feat_as1, feat_ap2)      # -0.09556435
+mate_score = compare(feat_ap1, feat_ap2)
+nonmate_score1 = compare(feat_as1, feat_ap1)
+nonmate_score2 = compare(feat_as1, feat_ap2)
+print(mate_score, nonmate_score1, nonmate_score2)   #  0.7762308, -0.12886877, -0.09556435
 ```
 
