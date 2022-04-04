@@ -1,0 +1,4 @@
+general_conditions:
+session_conditions:
+bb_conditions:
+  min_conf: 0.95

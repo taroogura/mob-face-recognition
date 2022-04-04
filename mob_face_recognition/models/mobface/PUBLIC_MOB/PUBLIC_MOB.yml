@@ -1,0 +1,4 @@
+cropper_id: 'FACEBOXES_DEFAULT_RAW'
+test_set: 'LQD'
+filter_id: 'MINCONF_95'
+train_id: 'MOBFACE_AUG_RESU2'

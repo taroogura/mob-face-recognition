@@ -1,0 +1,4 @@
+opencv-python ~= 4.2
+PyYAML~=6.0
+torch ~= 1.10
+git+https://github.com/Liquid-dev/FaceBoxes.PyTorch.git@0.1.3

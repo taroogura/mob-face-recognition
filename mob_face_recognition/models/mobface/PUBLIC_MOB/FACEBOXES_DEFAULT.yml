@@ -1,0 +1,5 @@
+model_name: 'faceboxes'
+conf_thresh: 0.2
+resize_max_y: 1280
+pad_ratio: 0.25
+model_path: ''

@@ -1,0 +1,4 @@
+detector_id: 'FACEBOXES_DEFAULT'
+resize_scale: 1.0
+face_y_offset: 0.0
+padding_type: 'raw'

@@ -1,0 +1,18 @@
+backbone_type: 'MobileFaceNet'
+update_backbone_param:
+  feat_dim: 256
+head_type: 'SST_Prototype'
+update_head_param:
+  margin: 0.25
+  feat_dim: 256
+lr: 0.1
+epoches: 30
+step: [10,20,25]
+print_freq: 5
+batch_size: 128
+momentum: 0.9
+alpha: 0.99
+save_freq: 2
+evaluate: True
+cuda: True
+resume: True

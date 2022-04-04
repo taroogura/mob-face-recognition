@@ -1,0 +1,2 @@
+include mob_face_recognition/models/mobface/*/*
+include mob_face_recognition/mob_facex/backbone_conf.yaml
